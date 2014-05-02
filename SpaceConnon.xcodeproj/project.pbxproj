@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB753181913A1810012FD1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB753171913A1810012FD1E /* Foundation.framework */; };
+		BDB7531A1913A1810012FD1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB753191913A1810012FD1E /* CoreGraphics.framework */; };
+		BDB7531C1913A1810012FD1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB7531B1913A1810012FD1E /* UIKit.framework */; };
+		BDB7531E1913A1810012FD1E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB7531D1913A1810012FD1E /* SpriteKit.framework */; };
+		BDB753241913A1810012FD1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDB753221913A1810012FD1E /* InfoPlist.strings */; };
+		BDB753261913A1810012FD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB753251913A1810012FD1E /* main.m */; };
+		BDB7532A1913A1810012FD1E /* LHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB753291913A1810012FD1E /* LHAppDelegate.m */; };
+		BDB7532D1913A1810012FD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB7532B1913A1810012FD1E /* Main.storyboard */; };
+		BDB753301913A1810012FD1E /* LHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7532F1913A1810012FD1E /* LHViewController.m */; };
+		BDB753331913A1810012FD1E /* LHMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB753321913A1810012FD1E /* LHMyScene.m */; };
+		BDB753351913A1810012FD1E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB753341913A1810012FD1E /* Spaceship.png */; };
+		BDB753371913A1810012FD1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB753361913A1810012FD1E /* Images.xcassets */; };
+		BDB7533E1913A1810012FD1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB7533D1913A1810012FD1E /* XCTest.framework */; };
+		BDB7533F1913A1810012FD1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB753171913A1810012FD1E /* Foundation.framework */; };
+		BDB753401913A1810012FD1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB7531B1913A1810012FD1E /* UIKit.framework */; };
+		BDB753481913A1810012FD1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDB753461913A1810012FD1E /* InfoPlist.strings */; };
+		BDB7534A1913A1810012FD1E /* SpaceConnonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB753491913A1810012FD1E /* SpaceConnonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB753411913A1810012FD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB7530C1913A1810012FD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB753131913A1810012FD1E;
+			remoteInfo = SpaceConnon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB753141913A1810012FD1E /* SpaceConnon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceConnon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB753171913A1810012FD1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDB753191913A1810012FD1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDB7531B1913A1810012FD1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDB7531D1913A1810012FD1E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		BDB753211913A1810012FD1E /* SpaceConnon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceConnon-Info.plist"; sourceTree = "<group>"; };
+		BDB753231913A1810012FD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDB753251913A1810012FD1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDB753271913A1810012FD1E /* SpaceConnon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaceConnon-Prefix.pch"; sourceTree = "<group>"; };
+		BDB753281913A1810012FD1E /* LHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHAppDelegate.h; sourceTree = "<group>"; };
+		BDB753291913A1810012FD1E /* LHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHAppDelegate.m; sourceTree = "<group>"; };
+		BDB7532C1913A1810012FD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB7532E1913A1810012FD1E /* LHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHViewController.h; sourceTree = "<group>"; };
+		BDB7532F1913A1810012FD1E /* LHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHViewController.m; sourceTree = "<group>"; };
+		BDB753311913A1810012FD1E /* LHMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHMyScene.h; sourceTree = "<group>"; };
+		BDB753321913A1810012FD1E /* LHMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHMyScene.m; sourceTree = "<group>"; };
+		BDB753341913A1810012FD1E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		BDB753361913A1810012FD1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDB7533C1913A1810012FD1E /* SpaceConnonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceConnonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB7533D1913A1810012FD1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDB753451913A1810012FD1E /* SpaceConnonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceConnonTests-Info.plist"; sourceTree = "<group>"; };
+		BDB753471913A1810012FD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDB753491913A1810012FD1E /* SpaceConnonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceConnonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB753111913A1810012FD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB7531A1913A1810012FD1E /* CoreGraphics.framework in Frameworks */,
+				BDB7531C1913A1810012FD1E /* UIKit.framework in Frameworks */,
+				BDB7531E1913A1810012FD1E /* SpriteKit.framework in Frameworks */,
+				BDB753181913A1810012FD1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB753391913A1810012FD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB7533E1913A1810012FD1E /* XCTest.framework in Frameworks */,
+				BDB753401913A1810012FD1E /* UIKit.framework in Frameworks */,
+				BDB7533F1913A1810012FD1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB7530B1913A1810012FD1E = {
+			isa = PBXGroup;
+			children = (
+				BDB7531F1913A1810012FD1E /* SpaceConnon */,
+				BDB753431913A1810012FD1E /* SpaceConnonTests */,
+				BDB753161913A1810012FD1E /* Frameworks */,
+				BDB753151913A1810012FD1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB753151913A1810012FD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB753141913A1810012FD1E /* SpaceConnon.app */,
+				BDB7533C1913A1810012FD1E /* SpaceConnonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB753161913A1810012FD1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB753171913A1810012FD1E /* Foundation.framework */,
+				BDB753191913A1810012FD1E /* CoreGraphics.framework */,
+				BDB7531B1913A1810012FD1E /* UIKit.framework */,
+				BDB7531D1913A1810012FD1E /* SpriteKit.framework */,
+				BDB7533D1913A1810012FD1E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB7531F1913A1810012FD1E /* SpaceConnon */ = {
+			isa = PBXGroup;
+			children = (
+				BDB753281913A1810012FD1E /* LHAppDelegate.h */,
+				BDB753291913A1810012FD1E /* LHAppDelegate.m */,
+				BDB7532B1913A1810012FD1E /* Main.storyboard */,
+				BDB7532E1913A1810012FD1E /* LHViewController.h */,
+				BDB7532F1913A1810012FD1E /* LHViewController.m */,
+				BDB753311913A1810012FD1E /* LHMyScene.h */,
+				BDB753321913A1810012FD1E /* LHMyScene.m */,
+				BDB753341913A1810012FD1E /* Spaceship.png */,
+				BDB753361913A1810012FD1E /* Images.xcassets */,
+				BDB753201913A1810012FD1E /* Supporting Files */,
+			);
+			path = SpaceConnon;
+			sourceTree = "<group>";
+		};
+		BDB753201913A1810012FD1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDB753211913A1810012FD1E /* SpaceConnon-Info.plist */,
+				BDB753221913A1810012FD1E /* InfoPlist.strings */,
+				BDB753251913A1810012FD1E /* main.m */,
+				BDB753271913A1810012FD1E /* SpaceConnon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDB753431913A1810012FD1E /* SpaceConnonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB753491913A1810012FD1E /* SpaceConnonTests.m */,
+				BDB753441913A1810012FD1E /* Supporting Files */,
+			);
+			path = SpaceConnonTests;
+			sourceTree = "<group>";
+		};
+		BDB753441913A1810012FD1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDB753451913A1810012FD1E /* SpaceConnonTests-Info.plist */,
+				BDB753461913A1810012FD1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB753131913A1810012FD1E /* SpaceConnon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB7534D1913A1810012FD1E /* Build configuration list for PBXNativeTarget "SpaceConnon" */;
+			buildPhases = (
+				BDB753101913A1810012FD1E /* Sources */,
+				BDB753111913A1810012FD1E /* Frameworks */,
+				BDB753121913A1810012FD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceConnon;
+			productName = SpaceConnon;
+			productReference = BDB753141913A1810012FD1E /* SpaceConnon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB7533B1913A1810012FD1E /* SpaceConnonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB753501913A1810012FD1E /* Build configuration list for PBXNativeTarget "SpaceConnonTests" */;
+			buildPhases = (
+				BDB753381913A1810012FD1E /* Sources */,
+				BDB753391913A1810012FD1E /* Frameworks */,
+				BDB7533A1913A1810012FD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB753421913A1810012FD1E /* PBXTargetDependency */,
+			);
+			name = SpaceConnonTests;
+			productName = SpaceConnonTests;
+			productReference = BDB7533C1913A1810012FD1E /* SpaceConnonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB7530C1913A1810012FD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Future Game";
+				TargetAttributes = {
+					BDB7533B1913A1810012FD1E = {
+						TestTargetID = BDB753131913A1810012FD1E;
+					};
+				};
+			};
+			buildConfigurationList = BDB7530F1913A1810012FD1E /* Build configuration list for PBXProject "SpaceConnon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB7530B1913A1810012FD1E;
+			productRefGroup = BDB753151913A1810012FD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB753131913A1810012FD1E /* SpaceConnon */,
+				BDB7533B1913A1810012FD1E /* SpaceConnonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB753121913A1810012FD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB753241913A1810012FD1E /* InfoPlist.strings in Resources */,
+				BDB753371913A1810012FD1E /* Images.xcassets in Resources */,
+				BDB753351913A1810012FD1E /* Spaceship.png in Resources */,
+				BDB7532D1913A1810012FD1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB7533A1913A1810012FD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB753481913A1810012FD1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB753101913A1810012FD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB7532A1913A1810012FD1E /* LHAppDelegate.m in Sources */,
+				BDB753261913A1810012FD1E /* main.m in Sources */,
+				BDB753331913A1810012FD1E /* LHMyScene.m in Sources */,
+				BDB753301913A1810012FD1E /* LHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB753381913A1810012FD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB7534A1913A1810012FD1E /* SpaceConnonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB753421913A1810012FD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB753131913A1810012FD1E /* SpaceConnon */;
+			targetProxy = BDB753411913A1810012FD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB753221913A1810012FD1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB753231913A1810012FD1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDB7532B1913A1810012FD1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB7532C1913A1810012FD1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB753461913A1810012FD1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB753471913A1810012FD1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB7534B1913A1810012FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDB7534C1913A1810012FD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB7534E1913A1810012FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceConnon/SpaceConnon-Prefix.pch";
+				INFOPLIST_FILE = "SpaceConnon/SpaceConnon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDB7534F1913A1810012FD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceConnon/SpaceConnon-Prefix.pch";
+				INFOPLIST_FILE = "SpaceConnon/SpaceConnon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDB753511913A1810012FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpaceConnon.app/SpaceConnon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceConnon/SpaceConnon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpaceConnonTests/SpaceConnonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDB753521913A1810012FD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpaceConnon.app/SpaceConnon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceConnon/SpaceConnon-Prefix.pch";
+				INFOPLIST_FILE = "SpaceConnonTests/SpaceConnonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB7530F1913A1810012FD1E /* Build configuration list for PBXProject "SpaceConnon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB7534B1913A1810012FD1E /* Debug */,
+				BDB7534C1913A1810012FD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB7534D1913A1810012FD1E /* Build configuration list for PBXNativeTarget "SpaceConnon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB7534E1913A1810012FD1E /* Debug */,
+				BDB7534F1913A1810012FD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDB753501913A1810012FD1E /* Build configuration list for PBXNativeTarget "SpaceConnonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB753511913A1810012FD1E /* Debug */,
+				BDB753521913A1810012FD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB7530C1913A1810012FD1E /* Project object */;
+}
