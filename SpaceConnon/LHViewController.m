@@ -19,6 +19,8 @@
     SKView * skView = (SKView *)self.view;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
+    skView.showsDrawCount = YES;
+    skView.showsPhysics = YES;
     
     // Create and configure the scene.
     SKScene * scene = [LHMyScene sceneWithSize:skView.bounds.size];
@@ -46,6 +48,10 @@
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+-(BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 @end
