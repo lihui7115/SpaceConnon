@@ -31,13 +31,13 @@
         playButton.position = CGPointMake(0, 0);
         [self addChild:playButton];
         
-        _topScoreLabel = [SKLabelNode labelNodeWithFontNamed:@"DIN Alternate"];
-        _topScoreLabel.position = CGPointMake(48, 50);
-        [self addChild:_topScoreLabel];
-        
         _scoreLabel = [SKLabelNode labelNodeWithFontNamed:@"DIN Alternate"];
         _scoreLabel.position = CGPointMake(-52, 50);
         [self addChild:_scoreLabel];
+        
+        _topScoreLabel = [SKLabelNode labelNodeWithFontNamed:@"DIN Alternate"];
+        _topScoreLabel.position = CGPointMake(48, 50);
+        [self addChild:_topScoreLabel];
         
         self.topScore = 0;
         self.score = 0;
