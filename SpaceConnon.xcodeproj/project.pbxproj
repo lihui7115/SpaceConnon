@@ -49,7 +49,7 @@
 		BDB753DC1916261F0012FD1E /* Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB753D91916261F0012FD1E /* Title@2x.png */; };
 		BDB753DF1916263D0012FD1E /* LHMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB753DE1916263D0012FD1E /* LHMenu.m */; };
 		BDB753E11917E0510012FD1E /* BallTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDB753E01917E0510012FD1E /* BallTrail.sks */; };
-		BDB753E41917E8570012FD1E /* LHBall.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB753E31917E8570012FD1E /* LHBall.m */; };
+		BDB753E71917EC4C0012FD1E /* LHBall.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB753E61917EC4C0012FD1E /* LHBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,8 +112,8 @@
 		BDB753DD1916263D0012FD1E /* LHMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHMenu.h; sourceTree = "<group>"; };
 		BDB753DE1916263D0012FD1E /* LHMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHMenu.m; sourceTree = "<group>"; };
 		BDB753E01917E0510012FD1E /* BallTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTrail.sks; sourceTree = "<group>"; };
-		BDB753E21917E8570012FD1E /* LHBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHBall.h; path = ../LHBall.h; sourceTree = "<group>"; };
-		BDB753E31917E8570012FD1E /* LHBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHBall.m; path = ../LHBall.m; sourceTree = "<group>"; };
+		BDB753E51917EC4C0012FD1E /* LHBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBall.h; sourceTree = "<group>"; };
+		BDB753E61917EC4C0012FD1E /* LHBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +190,8 @@
 				BDB753321913A1810012FD1E /* LHMyScene.m */,
 				BDB753DD1916263D0012FD1E /* LHMenu.h */,
 				BDB753DE1916263D0012FD1E /* LHMenu.m */,
-				BDB753E21917E8570012FD1E /* LHBall.h */,
-				BDB753E31917E8570012FD1E /* LHBall.m */,
+				BDB753E51917EC4C0012FD1E /* LHBall.h */,
+				BDB753E61917EC4C0012FD1E /* LHBall.m */,
 				BDB753361913A1810012FD1E /* Images.xcassets */,
 				BDB753201913A1810012FD1E /* Supporting Files */,
 			);
@@ -387,7 +387,7 @@
 			files = (
 				BDB7532A1913A1810012FD1E /* LHAppDelegate.m in Sources */,
 				BDB753261913A1810012FD1E /* main.m in Sources */,
-				BDB753E41917E8570012FD1E /* LHBall.m in Sources */,
+				BDB753E71917EC4C0012FD1E /* LHBall.m in Sources */,
 				BDB753DF1916263D0012FD1E /* LHMenu.m in Sources */,
 				BDB753331913A1810012FD1E /* LHMyScene.m in Sources */,
 				BDB753301913A1810012FD1E /* LHViewController.m in Sources */,
